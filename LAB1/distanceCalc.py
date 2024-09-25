@@ -1,20 +1,11 @@
 import math
 
-# Function to compute the distance between two points in a 2D plane
 def distance_between_planes(x1, y1, x2, y2):
-    distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
-    return distance
+    return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
 
-# Taking input from the user for the first plane
-x1 = float(input("Enter the x-coordinate of the first plane: "))
-y1 = float(input("Enter the y-coordinate of the first plane: "))
+x1 = float(input("x-Koordinate des ersten Punktes: "))
+y1 = float(input("y-Koordinate des ersten Punktes: "))
+x2 = float(input("x-Koordinate des zweiten Punktes: "))
+y2 = float(input("y-Koordinate des zweiten Punktes: "))
 
-# Taking input from the user for the second plane
-x2 = float(input("Enter the x-coordinate of the second plane: "))
-y2 = float(input("Enter the y-coordinate of the second plane: "))
-
-# Compute the distance between the two planes
-distance = distance_between_planes(x1, y1, x2, y2)
-
-# Output the result
-print(f"The distance between the two planes is approximately {distance:.2f} units.")
+print(f"Die Entfernung zwischen den Punkten beträgt {distance_between_planes(x1, y1, x2, y2)} Einheiten.")

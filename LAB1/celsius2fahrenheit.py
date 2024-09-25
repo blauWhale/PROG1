@@ -1,16 +1,6 @@
-# Function to convert Celsius to Fahrenheit
 def celsius_to_fahrenheit(celsius):
-    fahrenheit = (celsius * 9/5) + 32
-    return fahrenheit
+    return (celsius * 9/5) + 32
 
-# Taking input from the user
-celsius_input = input("Enter the temperature in Celsius: ")
+celsius = float(input("Temperatur in Celsius: ") or 0)
 
-# Convert input to float or use 0 if input is empty
-celsius = float(celsius_input) if celsius_input else 0
-
-# Convert Celsius to Fahrenheit
-fahrenheit = celsius_to_fahrenheit(celsius)
-
-# Output the result
-print(f"{celsius:.2f}°C is approximately {fahrenheit:.2f}°F.")
+print(f"{celsius}°C sind {celsius_to_fahrenheit(celsius)}°F.")
