@@ -47,6 +47,12 @@ result = calculate_project_cost()
 print(result)
 ```
 
+### Terminal Output
+
+![Cost Calculation Output](./output/costCalcOutput.png)
+
+
+
 ## 2.4 Rock Paper Scissors
 [Link to rockPaperScissor.py](./rockPaperScissor.py)
 
@@ -105,3 +111,6 @@ else:
     print("Computer das das Spiel gewonnen")
 
 ```
+
+### Terminal Output Ausschnitt
+![Schere Stein Papier Output](./output/rockPaperScissorOutput.png)
