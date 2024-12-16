@@ -23,7 +23,7 @@ def decrypt(message, shift):
     return decrypted_message
 
 # Example usage
-shift = 3  # Example shift value
+shift = 6  # Example shift value
 plain_text = "hello world"
 encrypted_text = encrypt(plain_text, shift)
 decrypted_text = decrypt(encrypted_text, shift)
