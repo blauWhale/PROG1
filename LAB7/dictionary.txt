@@ -1,0 +1,9 @@
+key Schluessel Taste 
+value Wert
+update Aktualisierung
+error Fehler
+table Tisch
+expression Ausdruck
+parameter Parameter Argument
+settings Einstellungen
+list Liste
